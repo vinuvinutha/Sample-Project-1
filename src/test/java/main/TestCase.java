@@ -10,8 +10,9 @@ public class TestCase {
 	@Test
 	public void testHello() {
 		sm = new SampleProject();
+		String c = "Hello world!";
 		
-		assertEquals("Hello World!",sm.printHello());
+		assertEquals(c,sm.printHello());
 	}
 	
 	@SuppressWarnings("static-access")
